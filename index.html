@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVZ | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">{JAVZ}</div>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">SOBRE MÍ</a>
+                <a href="#skills" class="nav-link">COMPETENCIAS</a>
+                <a href="#projects" class="nav-link">PROYECTOS</a>
+                <a href="#contact" class="nav-link">CONTACTO</a>
+            </div>
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">JAVIER PIÑERO</h1>
+                <p class="hero-subtitle">Full Stack Developer  |  Graphic Designer</p>
+                
+                <!-- Efecto máquina de escribir -->
+                <div class="typewriter-container">
+                    <p class="hero-description" id="typewriter">
+                        <span class="typewriter-text"></span>
+                        <span class="typewriter-cursor">|</span>
+                    </p>
+                </div>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-outline">VER PROYECTOS</a>
+                    <a href="#contact" class="btn btn-outline">CONTACTAR</a>
+                </div>
+            </div>
+            <div class="hero-decoration">
+                <!-- <div class="decoration-line"></div> -->
+                <!-- <div class="decoration-text">WEB DEVELOPER</div> -->
+            </div>
+        </div>
+    </header>
+        
+        <!-- Tech Banner -->
+        <div class="tech-banner">
+            <div class="tech-scroll">
+                <span>HTML5</span> •
+                <span>CSS3</span> •
+                <span>JavaScript</span> •
+                <span>React</span> •
+                <span>Node.js</span> •
+                <span>PHP</span> •
+                <span>MySQL</span> •
+                <span>MongoDB</span> •
+                <span>Git</span> •
+                <span>API REST</span> •
+                <span>HTML5</span> •
+                <span>CSS3</span> •
+                <span>JavaScript</span> •
+                <span>React</span> •
+                <span>Node.js</span> •
+                <span>PHP</span> •
+                <span>MySQL</span> •
+                <span>MongoDB</span> •
+                <span>Git</span> •
+                <span>API REST</span> •
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="section-header">
+                <h2 class="section-title">SOBRE MÍ</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Desarrollador Full Stack especializado en crear experiencias web
+                        minimalistas y eficientes. Mi enfoque combina la estética del
+                        diseño con la funcionalidad del desarrollo técnico.
+                    </p>
+                    <p>
+                        Cada proyecto es una oportunidad para innovar, aprendiendo
+                        constantemente nuevas tecnologías y metodologías.
+                    </p>
+                </div>
+                <div class="cv-download-card">
+                    <div class="cv-header">
+                        <i class="fas fa-file-alt cv-icon"></i>
+                    </div>
+                    <p class="cv-text">
+                        Accede a mi currículum detallado.
+                    </p>
+                    <a href="assets/cv.pdf" download class="cv-link">
+                        <span>Descargar CV</span>
+                        <i class="fas fa-arrow-down"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="section-header">
+                <h2 class="section-title">COMPETENCIAS</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <!-- Hard Skills (Competencias Técnicas) - Mantenemos la estructura original -->
+            <div class="hard-skills-section">
+                <h3 class="skills-subtitle">HARD SKILLS</h3>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">FRONTEND</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="skill-name">HTML5 / CSS3</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">JavaScript ES6+</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">React</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Responsive Design</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">BACKEND</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="skill-name">Node.js</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">PHP</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="70"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">API REST</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="75"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Git & GitHub</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="95"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">DATABASES</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="skill-name">MySQL</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">MongoDB</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="60"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">PostgreSQL</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="75"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Diseño de Bases de Datos</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Soft Skills - Nueva sección debajo -->
+            <div class="soft-skills-section">
+                <h3 class="skills-subtitle">SOFT SKILLS</h3>
+                <div class="soft-skills-grid">
+                    <div class="soft-skill-card">
+                        <div class="soft-skill-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <h4>Adaptabilidad al cambio</h4>
+                        <p>Capacidad para ajustarme rápidamente a nuevas tecnologías y metodologías de trabajo.</p>
+                    </div>
+                    
+                    <div class="soft-skill-card">
+                        <div class="soft-skill-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>Habilidades de liderazgo</h4>
+                        <p>Gestión de equipos multidisciplinares y coordinación de proyectos.</p>
+                    </div>
+                    
+                    <div class="soft-skill-card">
+                        <div class="soft-skill-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h4>Creatividad e innovación</h4>
+                        <p>Desarrollo de soluciones originales y enfoques novedosos para problemas complejos.</p>
+                    </div>
+                    
+                    <div class="soft-skill-card">
+                        <div class="soft-skill-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h4>Pensamiento crítico</h4>
+                        <p>Análisis profundo de problemas y evaluación objetiva de alternativas.</p>
+                    </div>
+                    
+                    <div class="soft-skill-card">
+                        <div class="soft-skill-icon">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <h4>Organización y planificación estratégica</h4>
+                        <p>Gestión eficiente de recursos y planificación de proyectos a largo plazo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="section-header">
+                <h2 class="section-title">PROYECTOS DESTACADOS</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="projects-showcase">
+                <div class="project-card">
+                    <div class="project-number">01</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Web para SD Pozo</h3>
+                        <p class="project-description">
+                            Aplicación web completa para gestión de recursos, newsletter, mailing, clientes y publicaciones del club.
+                        </p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-number">02</div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-commerce La Snitch dorada</h3>
+                        <p class="project-description">
+                            Tienda online de alta gama con carrito avanzado, sistema de
+                        wishlist y diseño completamente responsive para todos los dispositivos.
+                        </p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>CSS3</span>
+                            <span>LocalStorage</span>
+                            <span>API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-number">03</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Proyecto 'Colors of Freedom'</h3>
+                        <p class="project-description">
+                            Página web minimalista y experimental, enfocada en ofrecer una experiencia limpia y sencilla centrada en aspectos de diseño visual.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-cta">
+                <a href="projects.html" class="btn btn-black">
+                    <span>VER TODOS LOS PROYECTOS</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="section-header">
+                <h2 class="section-title">CONTACTO</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>javier.piserrano@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/javier-piñero-serrano-a30693367" target="_blank">
+                                Ver perfil profesional
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Ubicación</h4>
+                            <p>Madrid, España. Disponible para proyectos remotos</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Asunto" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-black">
+                        <span>ENVIAR MENSAJE</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>JAVIER PIÑERO</h3>
+                <p>Full Stack Developer</p>
+                <p>Graphic Designer</p>
+            </div>
+            <div class="footer-nav">
+                <a href="#about">SOBRE MÍ</a>
+                <a href="#skills">COMPETENCIAS</a>
+                <a href="#projects">PROYECTOS</a>
+                <a href="#contact">CONTACTO</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/javier-piñero-serrano-a30693367" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Arteconjota" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:javier.piserrano@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 { Javz } - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

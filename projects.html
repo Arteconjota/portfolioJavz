@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos | JAVIER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand">{JAVZ}</a>
+            <div class="nav-links">
+                <a href="index.html#about" class="nav-link">SOBRE MÍ</a>
+                <a href="index.html#skills" class="nav-link">COMPETENCIAS</a>
+                <a href="index.html#projects" class="nav-link">PROYECTOS</a>
+                <a href="index.html#contact" class="nav-link">CONTACTO</a>
+                <a href="index.html" class="nav-link btn-outline">VOLVER</a>
+            </div>
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Projects Header -->
+    <header class="projects-header">
+        <div class="projects-hero">
+            <h1 class="projects-title">PROYECTOS</h1>
+            <p class="projects-subtitle">Una colección de mis trabajos más destacados</p>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">TODOS</button>
+                <button class="filter-btn" data-filter="frontend">FRONTEND</button>
+                <button class="filter-btn" data-filter="backend">BACKEND</button>
+                <button class="filter-btn" data-filter="fullstack">FULL STACK</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects Grid -->
+    <main class="projects-main">
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-item fullstack" data-category="fullstack">
+                <div class="project-image">
+                    <div class="image-overlay">
+                        <span class="project-type">FULL STACK</span>
+                    </div>
+                    <div class="project-number">01</div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Web para SD Pozo</h3>
+                    <p class="project-description">
+                        Aplicación web completa para gestión de recursos, newsletter, mailing, clientes y publicaciones del club.
+                    </p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://www.sdpozo.com/" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Ver sitio
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-item frontend" data-category="frontend">
+                <div class="project-image">
+                    <div class="image-overlay">
+                        <span class="project-type">FRONTEND</span>
+                    </div>
+                    <div class="project-number">02</div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">E-commerce La Snitch dorada</h3>
+                    <p class="project-description">
+                        Tienda online de alta gama con carrito avanzado, sistema de
+                        wishlist y diseño completamente responsive para todos los dispositivos.
+                    </p>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>CSS Grid</span>
+                        <span>LocalStorage</span>
+                        <span>API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://snitch-dorada.netlify.app/" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Ver sitio
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-item backend" data-category="fullstack">
+                <div class="project-image">
+                    <div class="image-overlay">
+                        <span class="project-type">FULL STACK</span>
+                    </div>
+                    <div class="project-number">03</div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">API REST Avanzada</h3>
+                    <p class="project-description">
+                        Backend robusto con búsqueda de imágenes, autenticación
+                        JWT, rate limiting y arquitectura escalable para microservicios.
+                    </p>
+                    <div class="project-tech">
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>Jest</span>
+                        <span>Swagger</span>
+                        <span>Redis</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://almostpinterest-proy3.netlify.app/" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Ver sitio
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-item fullstack" data-category="frontend">
+                <div class="project-image">
+                    <div class="image-overlay">
+                        <span class="project-type">FRONTEND</span>
+                    </div>
+                    <div class="project-number">04</div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Proyecto 'Colors of Freedom'</h3>
+                    <p class="project-description">
+                        Página web minimalista y experimental, enfocada en ofrecer una experiencia limpia y sencilla centrada en aspectos de diseño visual.
+                    </p>
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://colorsoffreedom.netlify.app/" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Ver sitio
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-item frontend" data-category="frontend">
+                <div class="project-image">
+                    <div class="image-overlay">
+                        <span class="project-type">FRONTEND</span>
+                    </div>
+                    <div class="project-number">05</div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Generador Pokémon</h3>
+                    <p class="project-description">
+                        Landing page temática basada en el universo Pokémon, diseñada como prototipo o concepto visual con enfoque en la estética de la franquicia.
+                    </p>
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://generadorpokemon.netlify.app" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Ver Sitio
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- CTA Section -->
+    <section class="projects-cta-black">
+        <div class="cta-content">
+            <h2 class="cta-title">¿Tienes un proyecto<br>en mente?</h2>
+            <p class="cta-description">
+                Hagamos realidad tu idea.
+                <br>Trabajemos juntos para crear algo extraordinario.
+            </p>
+            <a href="index.html#contact" class="btn btn-black">
+                <span>CONTACTAR AHORA</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>JAVIER PIÑERO</h3>
+                <p>Full Stack Developer   |   Graphic Designer</p>
+            </div>
+            <div class="footer-nav">
+                <a href="index.html#about">SOBRE MÍ</a>
+                <a href="index.html#skills">COMPETENCIAS</a>
+                <a href="index.html#projects">PROYECTOS</a>
+                <a href="index.html#contact">CONTACTO</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/javier-piñero-serrano-a30693367" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Arteconjota" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:javier.piserrano@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 { Javz } - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="projects.js"></script>
+</body>
+</html>
